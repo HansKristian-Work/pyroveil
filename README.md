@@ -48,9 +48,9 @@ It is likely easier to simply use the path that you checked out for the `pyrovei
 
 Some manual workarounds will be required to make this work with a Bottles setup.
 
-Assuming you have gove through the [checkout and build](#checkout-and-build) section, you will now have two files in the `DCMAKE_INSTALL_PREFIX` directory:
-* `$DCMAKE_INSTALL_PREFIX/lib/libVkLayer_pyroveil_64.so`
-* `$DCMAKE_INSTALL_PREFIX/share/vulkan/implicit_layer.d/VkLayer_pyroveil_64.json`
+Assuming you have gone through the [checkout and build](#checkout-and-build) section, you will now have two files in the `CMAKE_INSTALL_PREFIX` directory:
+* `$CMAKE_INSTALL_PREFIX/lib/libVkLayer_pyroveil_64.so`
+* `$CMAKE_INSTALL_PREFIX/share/vulkan/implicit_layer.d/VkLayer_pyroveil_64.json`
 
 By default Bottles will search several locations for Vulkan layer manifests, one of them is:
 * `$HOME/.var/app/com.usebottles.bottles/config/vulkan/implicit_layer.d`
