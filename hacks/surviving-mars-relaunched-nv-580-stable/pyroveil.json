@@ -1,0 +1,8 @@
+{
+	"version": 2,
+	"type": "pyroveil",
+	"matches": [
+		{ "opStringSearch": "b73d41d886185985", "action": { "glsl-roundtrip": true } }
+	],
+	"disabledExtensions": [ "VK_NV_raw_access_chains" ]
+}
